@@ -563,10 +563,6 @@ p {
 
 /* ——— Usage ——— */
 
-.formula + .usage {
-  padding-top: 0;
-}
-
 .usage-steps {
   margin: 0;
   padding: 0;
