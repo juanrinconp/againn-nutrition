@@ -14,6 +14,7 @@
   --white: #ffffff;
   --line: rgba(18, 20, 26, 0.12);
   --font-brand: "Bebas Neue", "Impact", "Arial Narrow", sans-serif;
+  --font-logo: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Red Hat Text", "Helvetica Neue", sans-serif;
   --space: clamp(1rem, 2.5vw, 2rem);
   --max: 72rem;
@@ -100,9 +101,11 @@ p {
 }
 
 .nav-brand {
-  font-family: var(--font-brand);
-  font-size: 1.35rem;
-  letter-spacing: 0.08em;
+  font-family: var(--font-logo);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
   color: var(--white);
   opacity: 0.85;
 }
@@ -226,6 +229,10 @@ p {
 }
 
 .hero-slogan-brand {
+  font-family: var(--font-logo);
+  font-weight: 800;
+  font-size: 0.78em;
+  letter-spacing: -0.01em;
   color: var(--mango);
 }
 
@@ -850,9 +857,11 @@ p {
 }
 
 .site-footer .brand-name {
-  font-size: 1.15rem;
+  font-family: var(--font-logo);
+  font-weight: 800;
+  font-size: 1rem;
   font-style: italic;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 
