@@ -204,16 +204,29 @@ p {
   padding-left: 0.12em;
 }
 
+.hero-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.9rem;
+}
+
 .hero-slogan {
   font-family: var(--font-brand);
-  font-size: clamp(2.4rem, 6vw, 4.25rem);
+  font-size: clamp(3.5rem, 11vw, 8rem);
   font-weight: 400;
   font-style: italic;
   letter-spacing: 0.02em;
-  line-height: 1;
-  max-width: 24ch;
+  line-height: 0.9;
+  max-width: 12ch;
   text-wrap: balance;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-slogan-brand {
+  color: var(--mango);
 }
 
 .hero-headline {
@@ -222,7 +235,7 @@ p {
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1.1;
-  color: var(--mango);
+  color: var(--white);
   margin-bottom: 0.85rem;
 }
 
